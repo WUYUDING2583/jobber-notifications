@@ -12,8 +12,8 @@ importers:
         specifier: ^8.17.1
         version: 8.17.1
       '@wuyuding2583/jobber-shared':
-        specifier: ^0.0.5
-        version: 0.0.5
+        specifier: ^0.0.6
+        version: 0.0.6
       amqplib:
         specifier: ^0.10.7
         version: 0.10.7
@@ -889,8 +889,8 @@ packages:
     resolution: {integrity: sha512-RGLh5CRaUEf02viP5c1Vh1cMGffQscyHe7HPAzGpfmfflFg1wUz2rYxd+OZqwpeypYvZ8UxSxuIpF++fmOzEcg==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
-  '@wuyuding2583/jobber-shared@0.0.5':
-    resolution: {integrity: sha512-bZn3koGwSxCwFvWOdSGBBa1b5eN7XKjE1i7M9MDIJ7l/6ezcViKieiPwNtF7uRzmN+7ztgGeUWyfz7K9VeXHqw==, tarball: https://npm.pkg.github.com/download/@WUYUDING2583/jobber-shared/0.0.5/baa08a68079705e80eedd2a4ccd6dba14f49a3b8}
+  '@wuyuding2583/jobber-shared@0.0.6':
+    resolution: {integrity: sha512-q72TqQDuJcR9SSaqHKp+RE5cDin+TyRfUsYJR21h0RBeLS4TmccsdT4p614mXXc3EbKSAC8cxwi2UUZLblyFaQ==, tarball: https://npm.pkg.github.com/download/@WUYUDING2583/jobber-shared/0.0.6/3665c43391de21345f364e56e104bd6ba83fc85e}
 
   accepts@2.0.0:
     resolution: {integrity: sha512-5cvg6CtKwfgdmVqY1WIiXKc3Q1bkRqGLi+2W/6ao+6Y7gu/RCwRuAhGEzh5B4KlszSuTLgZYuqFqo5bImjNKng==}
@@ -3463,8 +3463,8 @@ packages:
   tr46@1.0.1:
     resolution: {integrity: sha512-dTpowEjclQ7Kgx5SdBkqRzVhERQXov8/l9Ft9dVM9fmg0W0KQSVaXX9T4i6twCPNtYiZM53lpSSUAwJbFPOHxA==}
 
-  tr46@5.1.0:
-    resolution: {integrity: sha512-IUWnUK7ADYR5Sl1fZlO1INDUhVhatWl7BtJWsIhwJ0UAK7ilzzIa8uIqOO/aYVWHZPJkKbEL+362wrzoeRF7bw==}
+  tr46@5.1.1:
+    resolution: {integrity: sha512-hdF5ZgjTqgAntKkklYw0R03MG2x/bSzTtkxmIRw/sTNV8YXsCJ1tfLAX23lhxhHJlEf3CRCOCGGWw3vI3GaSPw==}
     engines: {node: '>=18'}
 
   triple-beam@1.4.1:
@@ -4617,7 +4617,7 @@ snapshots:
       '@typescript-eslint/types': 8.29.1
       eslint-visitor-keys: 4.2.0
 
-  '@wuyuding2583/jobber-shared@0.0.5':
+  '@wuyuding2583/jobber-shared@0.0.6':
     dependencies:
       '@elastic/elasticsearch': 8.17.1
       cloudinary: 2.6.0
@@ -7858,7 +7858,7 @@ snapshots:
       punycode: 2.3.1
     optional: true
 
-  tr46@5.1.0:
+  tr46@5.1.1:
     dependencies:
       punycode: 2.3.1
 
@@ -8084,7 +8084,7 @@ snapshots:
 
   whatwg-url@14.2.0:
     dependencies:
-      tr46: 5.1.0
+      tr46: 5.1.1
       webidl-conversions: 7.0.0
 
   whatwg-url@5.0.0:
